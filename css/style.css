@@ -10209,3 +10209,13 @@ textarea.form-control {
 .pcolor{
   color: #888888;;
 }
+
+#val{
+  width: 10px;
+  color: #13653f;
+}
+
+#team{
+  width: 10px;
+  color: #13653f;
+}
