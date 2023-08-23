@@ -9496,8 +9496,8 @@ blockquote::before {
   width: 70px;
   line-height: 70px;
   border-radius: 8px;
-  color: #51B56D;
-  background-color: rgba(81, 181, 109, 0.2);
+  color: #3bbac1;
+  background-color: rgba(59, 186, 193, 0.2);
 }
 .service-item .service-title {
   transition: color 0.3s;
@@ -9505,8 +9505,10 @@ blockquote::before {
 .service-item .service-description {
   color: #888888;
 }
+
+/* 各個服務項目標題顏色 */
 .service-item a:hover .service-title {
-  color: #51B56D;
+  color: #4286c7;
 }
 .service-item a:hover .service-description {
   color: #888888;
@@ -9537,7 +9539,7 @@ blockquote::before {
   }
 }
 .service-item:nth-child(even) .colored-box {
-  color: #917AEB;
+  color: #7062a9;
   background-color: rgba(145, 122, 235, 0.2);
 }
 .service-item:hover {
