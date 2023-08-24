@@ -8824,7 +8824,7 @@ h6, .h6 {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  background-color: #51B56D;
+  background-color: #93cb91;
 }
 
 body {
@@ -8949,6 +8949,10 @@ a:hover {
 
 .text-primary {
   color: #4286c7 !important;
+}
+
+.text-primary-icon {
+  color: #7062a9 !important;
 }
 
 .text-primary-g {
@@ -9575,12 +9579,12 @@ blockquote::before {
   line-height: 85px;
   text-align: center;
   border-radius: 8px;
-  color: #917AEB;
-  background-color: rgba(145, 122, 235, 0.1);
+  color: #4286c7;
+  background-color: rgba(66, 134, 199, 0.1);
 }
 .difference-of-us-item:nth-child(even) .icon {
-  color: #51B56D;
-  background-color: rgba(81, 181, 109, 0.1);
+  color: #93cb91;
+  background-color: rgba(147, 203, 145, 0.1);
 }
 
 .has-shapes {
@@ -9607,6 +9611,7 @@ blockquote::before {
 .homepage_tab .payment_info_tab .active {
   color: #fff !important;
 }
+
 .homepage_tab .content-block,
 .homepage_tab .image-block {
   opacity: 0;
