@@ -5736,6 +5736,10 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
+.py-55 {
+  padding-top: 3rem !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -10029,6 +10033,39 @@ textarea.form-control {
   top: 15px;
 }
 
+
+
+
+#TableOfContents1 ul {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+#TableOfContents1 ul ul {
+  margin-top: 0;
+}
+
+#TableOfContents1 ul {
+  padding-left: 0;
+}
+#TableOfContents1 ul li {
+  list-style-type: none;
+  padding-left: 20px;
+  position: relative;
+  color: #040404;
+  line-height: 36px;
+}
+
+#TableOfContents1 ul li::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: #51B56D;
+  left: 3px;
+  top:14px ;
+}
+
 .has-line-end {
   display: inline-block;
   position: relative;
@@ -10225,4 +10262,28 @@ textarea.form-control {
 #team{
   width: 10px;
   color: #13653f;
+}
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 1s;
+}
+
+
+.member-info {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.pt{
+  padding: 50px 0;
+}
+
+
+.adimg-fluid {
+  /* width: 45%; */
+  display: block;
+  margin-bottom: 20px;
+  /* margin: auto; */
+  justify-content: center;
 }
