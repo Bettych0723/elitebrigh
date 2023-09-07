@@ -8913,6 +8913,10 @@ a:hover {
   padding-bottom: 80px;
 }
 
+.section-top{
+  padding-top: 80px;
+}
+
 .section-title {
   margin-bottom: 30px;
 }
@@ -10066,6 +10070,11 @@ textarea.form-control {
   top:14px ;
 }
 
+#TableOfContents .boldf{
+  font-weight: 700;
+}
+
+
 .has-line-end {
   display: inline-block;
   position: relative;
@@ -10285,5 +10294,20 @@ textarea.form-control {
   display: block;
   margin-bottom: 20px;
   /* margin: auto; */
-  justify-content: center;
+}
+
+.titlecolor{
+  color:#93cb91 !important;
+}
+
+.fst-italic {
+  font-style: italic!important;
+}
+
+.contentin ul:not(.nav) li::before {
+  content: "\f192";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #4286c7;
 }
